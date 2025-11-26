@@ -1,6 +1,7 @@
 # Emoji Smuggler 🕵️
 
 Educational demonstration of Unicode variation selector-based data smuggling.
+**Created by Gregory Kennedy**
 
 ## What is This?
 
