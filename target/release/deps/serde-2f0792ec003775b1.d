@@ -1,0 +1,14 @@
+/Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/deps/serde-2f0792ec003775b1.d: /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/build/serde-deab968074d0864e/out/private.rs
+
+/Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/deps/libserde-2f0792ec003775b1.rlib: /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/build/serde-deab968074d0864e/out/private.rs
+
+/Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/deps/libserde-2f0792ec003775b1.rmeta: /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/build/serde-deab968074d0864e/out/private.rs
+
+/Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/imacbaby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/build/serde-deab968074d0864e/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/imacbaby/Desktop/emoji-cybersecurity-app/emoji-smuggler/target/release/build/serde-deab968074d0864e/out

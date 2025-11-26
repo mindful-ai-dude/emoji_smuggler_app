@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Smuggler - Live Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🕵️ Emoji Smuggler</h1>
+            <p class="subtitle">Interactive Unicode Variation Selector Demo</p>
+            <p class="warning">⚠️ Educational Security Demonstration</p>
+        </header>
+
+        <main>
+            <!-- ENCODING SECTION -->
+            <section class="demo-section">
+                <h2>📝 Encode Message</h2>
+                
+                <!-- Emoji Picker -->
+                <div id="emoji-picker-container">
+                    <h3>Pick an emoji</h3>
+                    <div id="emoji-grid" class="emoji-grid"></div>
+                </div>
+
+                <div class="input-group">
+                    <label for="base-emoji">Base Emoji:</label>
+                    <input type="text" id="base-emoji" value="🧁" maxlength="2" placeholder="🧁">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message to Hide:</label>
+                    <input type="text" id="message" value="hello" placeholder="Enter your message">
+                </div>
+                <button id="encode-btn" class="btn btn-primary">Encode Message</button>
+
+                <div id="encode-results" class="results hidden">
+                    <h3>✨ Encoded Result</h3>
+                    <div class="result-box">
+                        <div class="result-label">Visual Output:</div>
+                        <div id="visual-output" class="visual-emoji"></div>
+                        <button id="copy-encoded-btn" class="btn btn-small">Copy</button>
+                    </div>
+                    <div class="result-box">
+                        <div class="result-label">Debug View:</div>
+                        <div id="debug-output" class="debug-text"></div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-label">Characters:</span>
+                            <span id="char-count" class="stat-value">-</span>
+                            <div id="char-list" class="detail-view hidden"></div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Hidden Selectors:</span>
+                            <span id="selector-count" class="stat-value">-</span>
+                            <div id="selector-list" class="detail-view hidden"></div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">UTF-8 Bytes:</span>
+                            <span id="byte-length" class="stat-value">-</span>
+                            <div id="byte-list" class="detail-view hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DECODING SECTION -->
+            <section class="demo-section">
+                <h2>🔓 Decode Message</h2>
+                <div class="input-group">
+                    <label for="encoded-input">Encoded Emoji:</label>
+                    <input type="text" id="encoded-input" placeholder="Paste encoded emoji here">
+                </div>
+                <button id="decode-btn" class="btn btn-primary">Decode Message</button>
+
+                <div id="decode-results" class="results hidden">
+                    <h3>🔍 Decoded Result</h3>
+                    <div class="result-box success">
+                        <div class="result-label">Hidden Message:</div>
+                        <div id="decoded-message" class="decoded-text"></div>
+                    </div>
+                    <div class="result-box">
+                        <div class="result-label">Hex Bytes:</div>
+                        <div id="hex-bytes" class="hex-display"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LIVE DEMONSTRATION -->
+            <section class="demo-section highlight">
+                <h2>🎯 Live Attack Simulation</h2>
+                <p class="demo-description">
+                    This demonstrates how a security filter sees an "innocent" emoji,
+                    while the AI model receives hidden malicious content.
+                </p>
+                <button id="demo-attack-btn" class="btn btn-warning">Run Attack Demo</button>
+
+                <div id="attack-demo" class="results hidden">
+                    <div class="simulation-panel">
+                        <h3>🛡️ Security Filter View</h3>
+                        <div class="filter-view">
+                            <div class="visual-emoji" id="filter-sees"></div>
+                            <div class="verdict safe">✓ SAFE - Just an emoji</div>
+                        </div>
+                    </div>
+                    <div class="simulation-panel">
+                        <h3>🤖 AI Model Receives</h3>
+                        <div class="model-view">
+                            <div class="debug-text" id="model-receives"></div>
+                            <div class="verdict danger">⚠️ HIDDEN PAYLOAD DETECTED</div>
+                            <div class="payload-info">
+                                Hidden Command: <code id="hidden-command"></code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Pluralsight Author Audition - Emoji Hacking Demo</p>
+            <p>Built with Rust + WebAssembly</p>
+        </footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
