@@ -1,6 +1,6 @@
 # Emoji Smuggler 🕵️
 
-Educational demonstration of Unicode variation selector-based data smuggling for the Pluralsight Author Audition on **Emoji Hacking**.
+Educational demonstration of Unicode variation selector-based data smuggling.
 
 ## What is This?
 
